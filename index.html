@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Landing Page</title>
+    <link rel="stylesheet" href="assets/css/styles.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,900;1,900&family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap" rel="stylesheet">
+</head>
+<body>
+    <input id ="close-menu" type="checkbox" class = "close-menu" 
+    aria-label="close Menu" role ="button">
+    <label class = "close-menu-label" for="close-menu" title = "close-menu"></label>
+    <aside class = "menu white-bg">
+     <div class = "main-content
+     menu-content">
+        <h1> <a href="#">LOGO</a></h1>
+        <nav>
+            <ul onclick="getElementById('close-menu').checked = false">
+                <li><a href="#intro">intro</a></li>
+                <li><a href="#qualidades">qualities</a></li>
+                <li><a href="#moments">moments</a></li>
+                <li><a href="#gallery">gallery</a></li>
+            </ul>
+        </nav>
+     </div>
+    </aside>
+
+    <div class ="menu-spacing"></div>
+
+    <section id = "intro" class = "intro main-bg section">
+        <div class = "main-content intro-content">
+        <div class = "intro-text">
+            <h2>Hey there!</h2>
+            <p>Este é um site dedicado a melhor namorada do planeta terra, criado por mim, Diogo Comin Teixeira, para estudo próprio e para fazer uma surpresa pra Sofia Picolli.</p>
+        </div>
+        <div class = "intro-img">
+            <img src="assets/img/intro.svg" alt="uma foto minha e da minha namorada arrumados para a festa">
+        </div>
+        </div>
+    </section>
+    <section id ="qualidades" class = "qualidades white-bg section">
+        <div class = "main-content qualidades-content"> 
+            <h2>qualities</h2>
+            <p>
+                Sofia encanta por onde passa com sua beleza única. Com seus cabelos loiros e sorriso envolvente, ela é daquelas pessoas que iluminam qualquer ambiente — uma presença impossível de ignorar.
+            </p>
+            <p>
+                Mesmo sendo baixinha, Sofia tem uma personalidade marcante e cheia de atitude. Ela é fofa, sim, mas também esperta, inteligente e sabe exatamente o que quer. Mimada? Talvez. Mas é exatamente isso que a torna ainda mais adorável.
+            </p>
+            <p>
+                Ela cuida de si com dedicação: é fitness, cheia de energia e dona de um corpo que combina perfeitamente com seu estilo de vida saudável. Sofia é a definição de charme, força e delicadeza, tudo ao mesmo tempo.
+            </p>
+        </div>
+    </section>
+    <section id="moments" class = "moments main-bg section">
+        <div class = "main-content moments-content">
+            <h3>Top 3 moments</h3>
+            <p>Momentos memoráveis nossos</p>
+            <div class ="grid">
+                <article>
+                    <h3>1st</h3>
+                <p>Nesse dia, meu coração disparava como se fosse o primeiro encontro. Com flores nas mãos e dois anéis no bolso, pedi a Sofia em namoro. Foi um gesto simples, mas cheio de significado — como tudo que vem do coração. Ela disse sim, e naquele instante, tudo ganhou mais cor, mais sentido, mais nós.</p>
+                </article> 
+                <article>
+                    <h3>2nd</h3>
+                <p>Entre peixes coloridos e águas-vivas flutuando, estávamos nós, rindo e descobrindo o quanto compartilhamos o encanto pelas pequenas coisas. O aquário de Balneário não foi só um passeio — foi um mergulho no nosso jeito de ser juntos: curiosos, bobos e apaixonados por viver cada momento lado a lado. </p>
+                </article>
+                <article>
+                    <h3>3rd</h3>
+                <p>Era madrugada, a cidade já dormia, e nós dois — levemente altos — estávamos ali: eu com a guitarra no colo, ela com a voz solta e o coração leve. Sofia cantava como se a música viesse de dentro, de um lugar só nosso. Foi bonito, íntimo e verdadeiro. Daqueles momentos que ninguém registra em foto, mas que a memória guarda com carinho eterno.</p>
+                </article>
+            </div>
+        </div>
+    </section>
+    <section id = "gallery" class = "section white-bg">
+        <div class = "main-content gallery-content">
+        <h1>Gallery</h1>
+            <div class = "grid">
+                <div class = "gallery-img">
+                    <img src="assets/img/img1.svg" alt="fotonossa">
+                </div>
+                 <div class = "gallery-img">
+                    <img src="assets/img/img2.svg" alt="fotonossa">
+                </div>
+                <div class = "gallery-img">
+                    <img src="assets/img/img3.svg" alt="fotonossa">
+                </div>
+                <div class = "gallery-img">
+                    <img src="assets/img/img4.svg" alt="fotnossoa">
+               </div>
+                 <div class = "gallery-img">
+                    <img src="assets/img/img5.svg" alt="fotnossoa">
+                </div>
+                 <div class = "gallery-img">
+                    <img src="assets/img/img6.svg" alt="fotonossa">
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class = "main-bg footer">
+        <div class = "main-content footer-content">
+            <p>Feito com amor por Diogo Comin Teixeira</p>
+        </div>
+    </footer>
+    <a class="back-to-top" href="#intro">⇧</a>
+</body>
+</html>
